@@ -21,7 +21,7 @@ public class SearchInNearlySortedArray {
                                       {
                                            return mid+1;
                                       }
-                                      else if(target>arr[mid])
+                                      if(target>arr[mid])
                                       {
                                            start=mid+2;
                                       }
